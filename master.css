@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+}
+
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.parent {
+    background-color: white;
+    border-radius: 20px;
+    height: 470px;
+    width: 322px;
+    position: relative;
+    top: 15vw;
+    left: 40vw;
+
+}
+.child {
+    position: absolute;
+    border-radius: 12px;
+    height: 280px;
+    top: 15px;
+    right: 20px;
+    left: 20px;
+}
+
+.words {
+    position: absolute;
+    bottom: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: hsl(212, 45%, 89%);
+    text-align: center;
+  
+}
+
+span {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);  
+}
+
+.attr {
+    font-size: 15px;
+    position: absolute;
+    left: 40vw;
+    bottom: 2px;
+
+}
